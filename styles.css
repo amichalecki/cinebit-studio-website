@@ -1,0 +1,24 @@
+@import url('https://www.fontify.me/wf/df4bbd38fe9c65b9e6a07ab3660e6134');
+
+body {
+    font-family: font94865;
+    font-size: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: font94865;
+}
+
+.mySlides {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 0 !important;
+}
