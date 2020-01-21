@@ -85,16 +85,20 @@
 
         <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
           <div class="w3-half w3-margin-bottom">
-            <img src="./images/portfolio/1.png" alt="ambiwalentnie" style="width:100%" class="w3-hover-opacity">
+            <img src="./images/portfolio/1.png" alt="ambiwalentnie" style="width:100%" class="w3-hover-opacity"
+              onclick="document.getElementById('portfolio1').style.display='block'">
           </div>
           <div class="w3-half w3-margin-bottom">
-            <img src="./images/portfolio/2.png" alt="grzech" style="width:100%" class="w3-hover-opacity">
+            <img src="./images/portfolio/2.png" alt="grzech" style="width:100%" class="w3-hover-opacity"
+              onclick="document.getElementById('portfolio2').style.display='block'">
           </div>
           <div class="w3-half w3-margin-bottom">
-            <img src="./images/portfolio/3.png" alt="Harnaś" style="width:100%" class="w3-hover-opacity">
+            <img src="./images/portfolio/3.png" alt="Harnaś" style="width:100%" class="w3-hover-opacity"
+              onclick="document.getElementById('portfolio3').style.display='block'">
           </div>
           <div class="w3-half w3-margin-bottom">
-            <img src="./images/portfolio/4.png" alt="knorr" style="width:100%" class="w3-hover-opacity">
+            <img src="./images/portfolio/4.png" alt="knorr" style="width:100%" class="w3-hover-opacity"
+              onclick="document.getElementById('portfolio4').style.display='block'">
           </div>
         </div>
       </div>
@@ -195,19 +199,36 @@
       </div>
     </div>
 
-    <!-- Photo Modal -->
-    <div id="photoModal" class="w3-modal">
+    <!-- Photo Modals -->
+    <div id="portfolio1" class="w3-modal">
       <div class="w3-modal-content w3-animate-top w3-card-4">
-        <header class="w3-container w3-teal w3-center w3-padding-32">
-          <span onclick="document.getElementById('photoModal').style.display='none'"
-            class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-          <h2 class="w3-wide">Tickets</h2>
-        </header>
-        <div class="w3-container">
-          <button class="w3-button w3-red w3-section"
-            onclick="document.getElementById('photoModal').style.display='none'">Close <i
-              class="fa fa-remove"></i></button>
-        </div>
+        <span onclick="document.getElementById('portfolio1').style.display='none'"
+          class="w3-button w3-xlarge w3-display-topright">×</span>
+        <img src="./images/portfolio/1.png" alt="ambiwalentnie" style="width:100%">
+      </div>
+    </div>
+
+    <div id="portfolio2" class="w3-modal">
+      <div class="w3-modal-content w3-animate-top w3-card-4">
+        <span onclick="document.getElementById('portfolio2').style.display='none'"
+          class="w3-button w3-xlarge w3-display-topright">×</span>
+        <img src="./images/portfolio/2.png" alt="ambiwalentnie" style="width:100%">
+      </div>
+    </div>
+
+    <div id="portfolio3" class="w3-modal">
+      <div class="w3-modal-content w3-animate-top w3-card-4">
+        <span onclick="document.getElementById('portfolio3').style.display='none'"
+          class="w3-button w3-xlarge w3-display-topright">×</span>
+        <img src="./images/portfolio/3.png" alt="ambiwalentnie" style="width:100%">
+      </div>
+    </div>
+
+    <div id="portfolio4" class="w3-modal">
+      <div class="w3-modal-content w3-animate-top w3-card-4">
+        <span onclick="document.getElementById('portfolio4').style.display='none'"
+          class="w3-button w3-xlarge w3-display-topright">×</span>
+        <img src="./images/portfolio/4.png" alt="ambiwalentnie" style="width:100%">
       </div>
     </div>
 
@@ -220,7 +241,8 @@
         <div class="w3-row w3-padding-32">
           <div class="w3-col w3-large w3-margin-bottom">
             <i class="fa fa-phone" style="width:30px"></i> Tel: <a href="tel:+48660696558">+48 660696558</a><br>
-            <i class="fa fa-envelope" style="width:30px"> </i> Email: <a href="mailto:info@cinebitstudio.pl">info@cinebitstudio.pl</a><br>
+            <i class="fa fa-envelope" style="width:30px"> </i> Email: <a
+              href="mailto:info@cinebitstudio.pl">info@cinebitstudio.pl</a><br>
           </div>
           <!-- <div class="w3-col m6">
           <form action="/action_page.php" target="_blank">
