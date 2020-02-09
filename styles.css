@@ -41,3 +41,47 @@ h1, h2, h3, h4, h5, h6 {
     background-color: none;
     font-size: 0;
 }
+
+/* relevant styles */
+
+.team {
+    filter: grayscale(100%);
+}
+
+.team__name {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: .6em;
+}
+
+.team__role {
+    margin: 0;
+}
+
+.img__wrap {
+    position: relative;
+  }
+  
+  .img__description {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 8px;
+    right: 8px;
+    background: #7777778e;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
