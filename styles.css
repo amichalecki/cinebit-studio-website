@@ -1,7 +1,7 @@
-@import url('https://www.fontify.me/wf/df4bbd38fe9c65b9e6a07ab3660e6134');
+@import url("https://use.typekit.net/dru8ypa.css");
 
 body {
-    font-family: font94865;
+    font-family: birch-std, serif;
     font-size: 22px;
     background-color: black;
 }
@@ -15,7 +15,7 @@ h2 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: font94865;
+    font-family: birch-std, serif;
 }
 
 .mySlides {
