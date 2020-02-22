@@ -1,7 +1,7 @@
-@import url("https://use.typekit.net/dru8ypa.css");
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre&display=swap');
 
 body {
-    font-family: birch-std, serif;
+    font-family: 'Abhaya Libre', serif;
     font-size: 22px;
     background-color: black;
 }
@@ -15,7 +15,7 @@ h2 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: birch-std, serif;
+    font-family: 'Abhaya Libre', serif;
 }
 
 .mySlides {
