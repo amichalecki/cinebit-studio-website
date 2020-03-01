@@ -38,11 +38,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .w3-modal-content {
     width: fit-content;
-    background-color: none;
-    font-size: 0;
+    background-color: black;
+    color: white;
+}
+
+li {
+    font-size: 16px;
 }
 
 /* relevant styles */
+
+.portfolio__box {
+    padding-bottom: 20px;
+}
+
+.portfolio__title {
+    padding: 0 20px;
+}
 
 .team {
     filter: grayscale(100%);
