@@ -1,0 +1,92 @@
+{/*  The Who Section */ }
+<div class="w3-container w3-content w3-center w3-padding-64 w3-black" style={{ maxWidth: '800px' }} id="who" >
+  <h2 class="w3-wide text-left">O NAS</h2>
+  <p class="w3-justify">
+    Cinebit Studio to ekipa pasjonatów kinematografii, która jednocześnie jest grupą wspaniałych
+    znajomych. To co nas połączyło, to właśnie miłość do filmu i opowiadania historii. Większość z nas ma
+    wykształcenie techniczne, co w połączeniu z talentem artystycznym stanowi niepowtarzalną mieszankę. Niezwykle
+    skrupulatnie organizujemy nasze plany filmowe, dbając o każdy detal na wszystkich etapach produkcji. Ale przede
+    wszystkim po prostu świetnie się też bawimy!
+</p>
+  <div class="w3-row w3-padding-32">
+    <div class="w3-third">
+      <img src={middle1} class="w3-round w3-margin-bottom" alt="Random Name" style={{ width: '60%' }} />
+    </div>
+    <div class="w3-third">
+      <img src={middle2} class="w3-round w3-margin-bottom" alt="Random Name" style={{ width: '60%' }} />
+    </div>
+    <div class="w3-third">
+      <img src={middle3} class="w3-round" alt="Random Name" style={{ width: '60%' }} />
+    </div>
+  </div>
+  <h2 class="w3-wide text-left">SIŁA HISTORII</h2>
+  <p class="w3-justify">
+    Ludzi kochają oglądać dobre historie! Dlatego też, stawiamy niezwykle duży nacisk na pomysłowość w naszych
+    projektach. Piszemy odważne scenariusze, często trochę szalone i nieszablonowe. Posiadające nagłe zwroty akcji i
+    nieoczywiste puenty. Wierzymy, że to właśnie dobra historia jest podstawą do powstania wielkiego dzieła!
+</p>
+</div>
+
+{/*  The Team Section */ }
+<div class="w3-black" id="team">
+  <div class="w3-container w3-content w3-padding-64" style={{ maxWidth: '800px' }}>
+    <h2 class="w3-wide w3-left">EKIPA</h2>
+
+    <div class="w3-row-padding w3-padding-32" style={{ margin: '0 -16px' }}>
+
+      <div class="w3-quarter w3-margin-bottom img__wrap">
+        <img src={foto1} alt="Artur Czerwiński" style={{ width: '100%' }} class="team" />
+        <div class="img__description">
+          <p class="team__name">Artur Czerwiński</p>
+          <p class="team__role">Reżyser</p>
+        </div>
+      </div>
+      <div class="w3-quarter w3-margin-bottom img__wrap">
+        <img src={foto2} alt="Kasia" style={{ width: '100%' }} class="team" />
+        <div class="img__description">
+          <p class="team__name">Kasia</p>
+          <p class="team__role"></p>
+        </div>
+      </div>
+      <div class="w3-quarter w3-margin-bottom img__wrap">
+        <img src={foto3} alt="Tomasz Januszewski" style={{ width: '100%' }} class="team" />
+        <div class="img__description">
+          <p class="team__name">Tomasz Januszewski</p>
+          <p class="team__role">autor zdjęć</p>
+        </div>
+      </div>
+      <div class="w3-quarter w3-margin-bottom img__wrap">
+        <img src={foto4} alt="Andrzej" style={{ width: '100%' }} class="team" />
+        <div class="img__description">
+          <p class="team__name">Andrzej</p>
+          <p class="team__role">po prostu Andrzej</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="w3-row-padding w3-padding-32" style={{ margin: '0 -16px' }}>
+      <div class="w3-quarter w3-margin-bottom img__wrap">
+        <img src={foto5} alt="Ola" style={{ width: '100%' }} class="team" />
+        <div class="img__description">
+          <p class="team__name">Ola</p>
+          <p class="team__role">autor zdjęć</p>
+        </div>
+      </div>
+      <div class="w3-quarter w3-margin-bottom img__wrap">
+        <img src={foto6} alt="Wasyl" style={{ width: '100%' }} class="team" />
+        <div class="img__description">
+          <p class="team__name">Wasyl</p>
+          <p class="team__role">Wasyl</p>
+        </div>
+      </div>
+      <div class="w3-quarter w3-margin-bottom img__wrap">
+        <img src={foto7} alt="Rogogon" style={{ width: '100%' }} class="team" />
+        < div class="img__description" >
+          <p class="team__name">Rogogon</p>
+          <p class="team__role">Rogogon</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
