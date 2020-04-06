@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e30b490.chunk.css",
-    "main.js": "/static/js/main.fb46fbd3.chunk.js",
-    "main.js.map": "/static/js/main.fb46fbd3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c888297c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c888297c.js.map",
-    "static/js/2.a7822459.chunk.js": "/static/js/2.a7822459.chunk.js",
-    "static/js/2.a7822459.chunk.js.map": "/static/js/2.a7822459.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.bee58f8ca6d905e9655cb2f47d625b9b.js": "/precache-manifest.bee58f8ca6d905e9655cb2f47d625b9b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.9e30b490.chunk.css.map": "/static/css/main.9e30b490.chunk.css.map",
-    "static/js/2.a7822459.chunk.js.LICENSE.txt": "/static/js/2.a7822459.chunk.js.LICENSE.txt",
-    "static/media/1.png": "/static/media/1.ce981399.png",
-    "static/media/2.png": "/static/media/2.baab82e8.png",
-    "static/media/3.png": "/static/media/3.a6bf2713.png",
-    "static/media/4.png": "/static/media/4.779f97da.png",
-    "static/media/footer.jpg": "/static/media/footer.6611eb6f.jpg",
-    "static/media/laury.png": "/static/media/laury.8ad59b49.png",
-    "static/media/marki.png": "/static/media/marki.52beef3d.png"
+    "main.css": "/cinebitstudio.pl/static/css/main.9e30b490.chunk.css",
+    "main.js": "/cinebitstudio.pl/static/js/main.cd8d7c38.chunk.js",
+    "main.js.map": "/cinebitstudio.pl/static/js/main.cd8d7c38.chunk.js.map",
+    "runtime-main.js": "/cinebitstudio.pl/static/js/runtime-main.10596dc6.js",
+    "runtime-main.js.map": "/cinebitstudio.pl/static/js/runtime-main.10596dc6.js.map",
+    "static/js/2.a7822459.chunk.js": "/cinebitstudio.pl/static/js/2.a7822459.chunk.js",
+    "static/js/2.a7822459.chunk.js.map": "/cinebitstudio.pl/static/js/2.a7822459.chunk.js.map",
+    "index.html": "/cinebitstudio.pl/index.html",
+    "precache-manifest.851f2e40997f90e1426ee8e10315aec8.js": "/cinebitstudio.pl/precache-manifest.851f2e40997f90e1426ee8e10315aec8.js",
+    "service-worker.js": "/cinebitstudio.pl/service-worker.js",
+    "static/css/main.9e30b490.chunk.css.map": "/cinebitstudio.pl/static/css/main.9e30b490.chunk.css.map",
+    "static/js/2.a7822459.chunk.js.LICENSE.txt": "/cinebitstudio.pl/static/js/2.a7822459.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/cinebitstudio.pl/static/media/1.ce981399.png",
+    "static/media/2.png": "/cinebitstudio.pl/static/media/2.baab82e8.png",
+    "static/media/3.png": "/cinebitstudio.pl/static/media/3.a6bf2713.png",
+    "static/media/4.png": "/cinebitstudio.pl/static/media/4.779f97da.png",
+    "static/media/footer.jpg": "/cinebitstudio.pl/static/media/footer.6611eb6f.jpg",
+    "static/media/laury.png": "/cinebitstudio.pl/static/media/laury.8ad59b49.png",
+    "static/media/marki.png": "/cinebitstudio.pl/static/media/marki.52beef3d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c888297c.js",
+    "static/js/runtime-main.10596dc6.js",
     "static/js/2.a7822459.chunk.js",
     "static/css/main.9e30b490.chunk.css",
-    "static/js/main.fb46fbd3.chunk.js"
+    "static/js/main.cd8d7c38.chunk.js"
   ]
 }
