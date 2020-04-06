@@ -2,7 +2,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import classNames from 'classnames';
-import YoutubeBackground from 'react-youtube-background'
+import YoutubeBackground from 'react-youtube-background';
+import JustifiedGrid from 'react-justified-grid';
 
 import './App.css';
 
@@ -12,10 +13,10 @@ import logo from './images/logo.jpg';
 import laury from './images/laury.png';
 import marki from './images/marki.png';
 
-// import portfolio1 from "./images/portfolio/1.png";
-// import portfolio2 from "./images/portfolio/2.png";
-// import portfolio3 from "./images/portfolio/3.png";
-// import portfolio4 from "./images/portfolio/4.png";
+import portfolio1 from "./images/portfolio/1.png";
+import portfolio2 from "./images/portfolio/2.png";
+import portfolio3 from "./images/portfolio/3.png";
+import portfolio4 from "./images/portfolio/4.png";
 
 // import middle1 from "./images/middle/1.jpg";
 // import middle2 from "./images/middle/2.jpg";
@@ -50,6 +51,35 @@ import footer from "./images/footer.jpg";
 //   }
 // ]
 
+const PORTFOLIO = [
+  {
+    src: portfolio1,
+    width: 698,
+    height: 297,
+    originalData: 'https://player.vimeo.com/video/388824268'
+  },
+  {
+    src: portfolio2,
+    width: 698,
+    height: 297,
+    originalData: {
+      linkUrl: 'https://player.vimeo.com/video/388824268'
+    }
+  },
+  {
+    src: portfolio3,
+    width: 698,
+    height: 297,
+    originalData: 'https://player.vimeo.com/video/388824268'
+  },
+  {
+    src: portfolio4,
+    width: 698,
+    height: 297,
+    originalData: 'https://player.vimeo.com/video/388824268'
+  }
+];
+
 function App() {
   const [showNavDemo, setShowNavDemo] = useState(true);
 
@@ -76,7 +106,7 @@ function App() {
             <a href="#portfolio" className="w3-bar-item w3-button w3-padding-large w3-hide-small">PORTFOLIO</a>
             {/* <a href="#who" className="w3-bar-item w3-button w3-padding-large w3-hide-small">KIM JESTEŚMY</a> */}
             {/* <a href="#team" className="w3-bar-item w3-button w3-padding-large w3-hide-small">EKIPA</a> */}
-            <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">KONTAKT</a>
+            <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTAKT</a>
           </div>
           {/*  <div className="w3-dropdown-hover w3-hide-small">
           <button className="w3-padding-large w3-button" title="More">MORE <i className="fa fa-caret-down"></i></button>
@@ -98,6 +128,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
               className="w3-bar-item w3-button w3-padding w3-hide-small"
+              style={{ marginLeft: '120px' }}
             >
               <i className="fa fa-vimeo w3-hover-opacity"></i>
             </a>
@@ -116,7 +147,6 @@ function App() {
           {
             'w3-show': !showNavDemo,
             'w3-hide': showNavDemo,
-
           }
         )}
         style={{ marginTop: '84px' }}
@@ -124,7 +154,7 @@ function App() {
         <a href="#portfolio" className="w3-bar-item w3-button w3-padding-large" onClick={() => handleMenuToogle()}>PORTFOLIO</a>
         {/* <a href="#who" className="w3-bar-item w3-button w3-padding-large" onClick={() => handleMenuToogle()}>KIM JESTEŚMY</a> */}
         {/* <a href="#team" className="w3-bar-item w3-button w3-padding-large" onClick={() => handleMenuToogle()}>EKIPA</a> */}
-        <a href="#contact" className="w3-bar-item w3-button w3-padding-large" onClick={() => handleMenuToogle()}>KONTAKT</a>
+        <a href="#contact" className="w3-bar-item w3-button w3-padding-large" onClick={() => handleMenuToogle()}>CONTAKT</a>
       </div>
 
       {/*  Page content */}
@@ -146,12 +176,12 @@ function App() {
               <h1>CINEBIT STUDIO</h1>
               <h2>A BIT OF CINEMA.</h2>
             </div>
-            <div className="w3-container w3-text-white w3-hide-small showreelButton">
+            <div className="w3-container w3-text-white showreelButton">
               <a
                 href="https://vimeo.com/cinebitstudio"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w3-bar-item w3-button w3-padding-large w3-hide-small showreelButton"
+                className="w3-bar-item w3-button w3-padding-large showreelButton"
               >
                 WATCH SHOWREEL
                 </a>
@@ -162,34 +192,61 @@ function App() {
 
         {/*  Automatic Slideshow Images */}
 
-        <div className="mySlides w3-display-container w3-center w3-black">
+        <div className="w3-display-container w3-center w3-black">
           <img src={laury} alt="laury" style={{ maxWidth: '100%' }} />
-        </div>
-        <div className="mySlides w3-display-container w3-center w3-black">
-          <img src={marki} alt="marki" style={{ maxWidth: '100%' }} />
         </div>
 
         {/*  The Portfolio Section */}
 
 
         {/* TUTAJ PORTFOLIO */}
+        <div className="w3-display-container" id="portfolio">
+          <JustifiedGrid
+            images={PORTFOLIO}
+            rows={10}
+            maxRowHeight={400}
+            showIncompleteRow
+            gutter={5}
+          >
+            {processedImages => {
+              return (
+                <>
+                  {processedImages.map(image => {
+                    const { src, width, height, originalData } = image;
+                    // console.log(image)
+                    return (
+                      <a key={src} alt="lol" href={originalData.originalData} target="_blank" rel="noopener noreferrer">
+                        <img src={src} width={width} height={height} alt="" />
+                      </a>
+                    );
+                  })}
+                </>
+              );
+            }}
+          </JustifiedGrid>
+        </div>
 
+        <div className="w3-display-container w3-center w3-black">
+          <img src={marki} alt="marki" style={{ maxWidth: '100%' }} />
+        </div>
 
         {/*  The Contact Section */}
         <div className="w3-display-container" id="contact">
           <img src={footer} className="w3-image w3-greyscale-min" style={{ width: '100%' }} alt="" />
           <div className="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
-            <h2 className="w3-wide w3-center">KONTAKT</h2>
-            <p className="w3-center">Zainteresowany?</p>
-            <p className="w3-center">Napisz!</p>
+            <h2 className="w3-wide w3-center">CONTAKT</h2>
+            {/* <p className="w3-center">Zainteresowany?</p> */}
+            {/* <p className="w3-center">Napisz!</p> */}
             <div className="w3-padding-32 w3-center">
               <div className="w3-large w3-margin-bottom">
-                <i className="fa fa-phone" style={{ width: '30px' }}></i> Tel: <a href="tel:+48660696558">
+                {/* <i className="fa fa-phone" style={{ width: '30px' }}></i> Tel:  */}
+                <a href="tel:+48660696558">
                   +48 660696558
                   </a>
               </div>
               <div className="w3-large w3-margin-bottom">
-                <i className="fa fa-envelope" style={{ width: '30px' }}> </i> Email: <a href="mailto:info@cinebitstudio.pl">
+                {/* <i className="fa fa-envelope" style={{ width: '30px' }}> </i> Email:  */}
+                <a href="mailto:info@cinebitstudio.pl">
                   info@cinebitstudio.pl
                   </a>
               </div>
