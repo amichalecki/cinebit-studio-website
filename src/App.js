@@ -2,10 +2,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import classNames from 'classnames';
+import YoutubeBackground from 'react-youtube-background'
+
 import './App.css';
 
 import logo from './images/logo.jpg';
-import header from './images/header.jpg';
+// import header from './images/header.jpg';
 
 import laury from './images/laury.png';
 import marki from './images/marki.png';
@@ -91,8 +93,12 @@ function App() {
           <a href="javascript:void(0)" className="w3-bar-item w3-button w3-padding w3-hide-small">
             <i className="fa fa-instagram w3-hover-opacity"></i>
           </a> */}
-            <a href="https://vimeo.com/cinebitstudio" target="_blank" rel="noopener noreferrer"
-              className="w3-bar-item w3-button w3-padding w3-hide-small">
+            <a
+              href="https://vimeo.com/cinebitstudio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w3-bar-item w3-button w3-padding w3-hide-small"
+            >
               <i className="fa fa-vimeo w3-hover-opacity"></i>
             </a>
             {/*  <a href="javascript:void(0)" className="w3-bar-item w3-button w3-padding w3-hide-small">
@@ -124,24 +130,35 @@ function App() {
       {/*  Page content */}
       <div className="w3-content" style={{ maxWidth: '2000px', marginTop: '84px' }}>
 
-        <div className="w3-center w3-display-container">
-          <img
+        {/* <img
             src={header}
             alt="header"
             style={{ width: '100%' }}
-          />
+          /> */}
 
-          {/* <div style={{ zIndex: -99, width: '100%', height: '100%'}} >
-            <iframe title="portfolio" frameborder="0" height="100%" width="100%"
-              src="https://youtube.com/embed/9z3feC9GMzc?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&modestbranding=1&rel=0&showinfo=0">
-            </iframe>
-          </div> */}
-
-          <div className="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
-            <h1>CINEBIT STUDIO</h1>
-            <h2>A BIT OF CINEMA.</h2>
+        <YoutubeBackground
+          videoId='9z3feC9GMzc'
+          className='videoHeight'
+        // style={{ width: '100px' }}
+        >
+          <div className="w3-center w3-display-container w3-padding-32">
+            <div className="w3-container w3-text-white w3-padding-32 w3-hide-small">
+              <h1>CINEBIT STUDIO</h1>
+              <h2>A BIT OF CINEMA.</h2>
+            </div>
+            <div className="w3-container w3-text-white w3-hide-small showreelButton">
+              <a
+                href="https://vimeo.com/cinebitstudio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w3-bar-item w3-button w3-padding-large w3-hide-small showreelButton"
+              >
+                WATCH SHOWREEL
+                </a>
+            </div>
           </div>
-        </div>
+
+        </YoutubeBackground>
 
         {/*  Automatic Slideshow Images */}
 
