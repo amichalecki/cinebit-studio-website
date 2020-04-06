@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/cinebit-studio-website/static/css/main.9e30b490.chunk.css",
-    "main.js": "/cinebit-studio-website/static/js/main.bb9d3123.chunk.js",
-    "main.js.map": "/cinebit-studio-website/static/js/main.bb9d3123.chunk.js.map",
-    "runtime-main.js": "/cinebit-studio-website/static/js/runtime-main.75746203.js",
-    "runtime-main.js.map": "/cinebit-studio-website/static/js/runtime-main.75746203.js.map",
-    "static/js/2.a7822459.chunk.js": "/cinebit-studio-website/static/js/2.a7822459.chunk.js",
-    "static/js/2.a7822459.chunk.js.map": "/cinebit-studio-website/static/js/2.a7822459.chunk.js.map",
-    "index.html": "/cinebit-studio-website/index.html",
-    "precache-manifest.6bdcb100f2e0dcef6bc4fd507c752f48.js": "/cinebit-studio-website/precache-manifest.6bdcb100f2e0dcef6bc4fd507c752f48.js",
-    "service-worker.js": "/cinebit-studio-website/service-worker.js",
-    "static/css/main.9e30b490.chunk.css.map": "/cinebit-studio-website/static/css/main.9e30b490.chunk.css.map",
-    "static/js/2.a7822459.chunk.js.LICENSE.txt": "/cinebit-studio-website/static/js/2.a7822459.chunk.js.LICENSE.txt",
-    "static/media/1.png": "/cinebit-studio-website/static/media/1.ce981399.png",
-    "static/media/2.png": "/cinebit-studio-website/static/media/2.baab82e8.png",
-    "static/media/3.png": "/cinebit-studio-website/static/media/3.a6bf2713.png",
-    "static/media/4.png": "/cinebit-studio-website/static/media/4.779f97da.png",
-    "static/media/footer.jpg": "/cinebit-studio-website/static/media/footer.6611eb6f.jpg",
-    "static/media/laury.png": "/cinebit-studio-website/static/media/laury.8ad59b49.png",
-    "static/media/marki.png": "/cinebit-studio-website/static/media/marki.52beef3d.png"
+    "main.css": "/static/css/main.9e30b490.chunk.css",
+    "main.js": "/static/js/main.8bb0da2c.chunk.js",
+    "main.js.map": "/static/js/main.8bb0da2c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c888297c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c888297c.js.map",
+    "static/js/2.a7822459.chunk.js": "/static/js/2.a7822459.chunk.js",
+    "static/js/2.a7822459.chunk.js.map": "/static/js/2.a7822459.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.32e84e6fb011ae4eda47a491d68fb92e.js": "/precache-manifest.32e84e6fb011ae4eda47a491d68fb92e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9e30b490.chunk.css.map": "/static/css/main.9e30b490.chunk.css.map",
+    "static/js/2.a7822459.chunk.js.LICENSE.txt": "/static/js/2.a7822459.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/static/media/1.ce981399.png",
+    "static/media/2.png": "/static/media/2.baab82e8.png",
+    "static/media/3.png": "/static/media/3.a6bf2713.png",
+    "static/media/4.png": "/static/media/4.779f97da.png",
+    "static/media/footer.jpg": "/static/media/footer.6611eb6f.jpg",
+    "static/media/laury.png": "/static/media/laury.8ad59b49.png",
+    "static/media/marki.png": "/static/media/marki.52beef3d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.75746203.js",
+    "static/js/runtime-main.c888297c.js",
     "static/js/2.a7822459.chunk.js",
     "static/css/main.9e30b490.chunk.css",
-    "static/js/main.bb9d3123.chunk.js"
+    "static/js/main.8bb0da2c.chunk.js"
   ]
 }
