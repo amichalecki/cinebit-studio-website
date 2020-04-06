@@ -106,7 +106,7 @@ function App() {
             <a href="#portfolio" className="w3-bar-item w3-button w3-padding-large w3-hide-small">PORTFOLIO</a>
             {/* <a href="#who" className="w3-bar-item w3-button w3-padding-large w3-hide-small">KIM JESTEŚMY</a> */}
             {/* <a href="#team" className="w3-bar-item w3-button w3-padding-large w3-hide-small">EKIPA</a> */}
-            <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTAKT</a>
+            <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
           </div>
           {/*  <div className="w3-dropdown-hover w3-hide-small">
           <button className="w3-padding-large w3-button" title="More">MORE <i className="fa fa-caret-down"></i></button>
@@ -154,7 +154,7 @@ function App() {
         <a href="#portfolio" className="w3-bar-item w3-button w3-padding-large" onClick={() => handleMenuToogle()}>PORTFOLIO</a>
         {/* <a href="#who" className="w3-bar-item w3-button w3-padding-large" onClick={() => handleMenuToogle()}>KIM JESTEŚMY</a> */}
         {/* <a href="#team" className="w3-bar-item w3-button w3-padding-large" onClick={() => handleMenuToogle()}>EKIPA</a> */}
-        <a href="#contact" className="w3-bar-item w3-button w3-padding-large" onClick={() => handleMenuToogle()}>CONTAKT</a>
+        <a href="#contact" className="w3-bar-item w3-button w3-padding-large" onClick={() => handleMenuToogle()}>CONTACT</a>
       </div>
 
       {/*  Page content */}
@@ -234,7 +234,7 @@ function App() {
         <div className="w3-display-container" id="contact">
           <img src={footer} className="w3-image w3-greyscale-min" style={{ width: '100%' }} alt="" />
           <div className="w3-display-middle w3-container w3-text-white w3-padding-32">
-            <h2 className="w3-wide w3-center">CONTAKT</h2>
+            <h2 className="w3-wide w3-center">CONTACT</h2>
             {/* <p className="w3-center">Zainteresowany?</p> */}
             {/* <p className="w3-center">Napisz!</p> */}
             <div className="w3-padding-32 w3-center">
