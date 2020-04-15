@@ -17,6 +17,8 @@ import portfolio1 from "./images/portfolio/1.png";
 import portfolio2 from "./images/portfolio/2.png";
 import portfolio3 from "./images/portfolio/3.png";
 import portfolio4 from "./images/portfolio/4.png";
+import portfolio5 from "./images/portfolio/5.png";
+import portfolio6 from "./images/portfolio/6.png";
 
 // import middle1 from "./images/middle/1.jpg";
 // import middle2 from "./images/middle/2.jpg";
@@ -56,27 +58,37 @@ const PORTFOLIO = [
     src: portfolio1,
     width: 698,
     height: 297,
-    originalData: 'https://player.vimeo.com/video/388824268'
+    originalData: 'https://vimeo.com/388824268'
   },
   {
     src: portfolio2,
     width: 698,
     height: 297,
-    originalData: {
-      linkUrl: 'https://player.vimeo.com/video/388824268'
-    }
+    originalData: 'https://vimeo.com/388824268'
   },
   {
     src: portfolio3,
     width: 698,
     height: 297,
-    originalData: 'https://player.vimeo.com/video/388824268'
+    originalData: 'https://vimeo.com/388824268'
   },
   {
     src: portfolio4,
     width: 698,
     height: 297,
-    originalData: 'https://player.vimeo.com/video/388824268'
+    originalData: 'https://vimeo.com/388824268'
+  },
+  {
+    src: portfolio5,
+    width: 698,
+    height: 297,
+    originalData: 'https://vimeo.com/399341592'
+  },
+  {
+    src: portfolio6,
+    width: 698,
+    height: 297,
+    originalData: 'https://vimeo.com/388825454'
   }
 ];
 
@@ -108,14 +120,6 @@ function App() {
             {/* <a href="#team" className="w3-bar-item w3-button w3-padding-large w3-hide-small">EKIPA</a> */}
             <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
           </div>
-          {/*  <div className="w3-dropdown-hover w3-hide-small">
-          <button className="w3-padding-large w3-button" title="More">MORE <i className="fa fa-caret-down"></i></button>
-          <div className="w3-dropdown-content w3-bar-block w3-card-4">
-            <a href="#" className="w3-bar-item w3-button">Merchandise</a>
-            <a href="#" className="w3-bar-item w3-button">Extras</a>
-            <a href="#" className="w3-bar-item w3-button">Media</a>
-          </div>
-        </div> */}
           <div>
             {/*  <a href="javascript:void(0)" className="w3-bar-item w3-button w3-padding w3-hide-small">
             <i className="fa fa-facebook-official w3-hover-opacity"></i>
@@ -130,7 +134,8 @@ function App() {
               className="w3-bar-item w3-button w3-padding w3-hide-small"
               style={{ marginLeft: '120px' }}
             >
-              <i className="fa fa-vimeo w3-hover-opacity"></i>
+              <i className="fa fa-vimeo w3-hover-opacity" style={{ marginRight: '10px' }}/>
+              Vimeo
             </a>
             {/*  <a href="javascript:void(0)" className="w3-bar-item w3-button w3-padding w3-hide-small">
             <i className="fa fa-envelope w3-hover-opacity"></i>
@@ -176,12 +181,12 @@ function App() {
               <h1>CINEBIT STUDIO</h1>
               <h2>A BIT OF CINEMA.</h2>
             </div>
-            <div className="w3-container w3-text-white showreelButton">
+            <div className="w3-container w3-text-white showreel--button-container">
               <a
                 href="https://vimeo.com/cinebitstudio"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w3-bar-item w3-button w3-padding-large showreelButton"
+                className="w3-bar-item w3-button w3-padding-large showreel--button"
               >
                 WATCH SHOWREEL
                 </a>
@@ -192,7 +197,7 @@ function App() {
 
         {/*  Automatic Slideshow Images */}
 
-        <div className="w3-display-container w3-center w3-black">
+        <div className="w3-padding-16 w3-display-container w3-center w3-black">
           <img src={laury} alt="laury" style={{ maxWidth: '100%' }} />
         </div>
 
@@ -226,7 +231,7 @@ function App() {
           </JustifiedGrid>
         </div>
 
-        <div className="w3-display-container w3-center w3-black">
+        <div className="w3-padding-16 w3-display-container w3-center w3-black">
           <img src={marki} alt="marki" style={{ maxWidth: '100%' }} />
         </div>
 
@@ -237,16 +242,16 @@ function App() {
             <h2 className="w3-wide w3-center">CONTACT</h2>
             {/* <p className="w3-center">Zainteresowany?</p> */}
             {/* <p className="w3-center">Napisz!</p> */}
-            <div className="w3-padding-32 w3-center">
-              <div className="w3-large w3-margin-bottom">
+            <div className="w3-center">
+              <div className="w3-margin-bottom">
                 {/* <i className="fa fa-phone" style={{ width: '30px' }}></i> Tel:  */}
-                <a href="tel:+48660696558">
+                <a className="link" href="tel:+48660696558">
                   +48 660696558
                   </a>
               </div>
               <div className="w3-large w3-margin-bottom">
                 {/* <i className="fa fa-envelope" style={{ width: '30px' }}> </i> Email:  */}
-                <a href="mailto:info@cinebitstudio.pl">
+                <a className="link" href="mailto:info@cinebitstudio.pl">
                   info@cinebitstudio.pl
                   </a>
               </div>
@@ -259,10 +264,12 @@ function App() {
 
       {/*  Footer */}
       <footer className="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+        <a href="#" className="w3-bar-item logo">
+          <img src={logo} alt="logo" />
+        </a>
         {/*  <a href="javascript:void(0)" className="w3-padding"><i className="fa fa-facebook-official w3-hover-opacity"></i></a>
       <a href="javascript:void(0)" className="w3-padding"><i className="fa fa-instagram w3-hover-opacity"></i></a> */}
         <a href="https://vimeo.com/cinebitstudio" target="_blank" rel="noopener noreferrer" className="w3-padding"><i className="fa fa-vimeo w3-hover-opacity"></i></a>
-        <p className="w3-large"><a href="mailto:info@cinebitstudio.pl">info@cinebitstudio.pl</a></p>
       </footer>
     </>
   );

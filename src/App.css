@@ -3,6 +3,11 @@
   /* height: 400px; */
 }
 
-.showreelButton {
+.showreel--button-container {
   padding-bottom: 32px;
+}
+
+.showreel--button {
+  padding-bottom: 32px;
+  border: 1px white solid;
 }
