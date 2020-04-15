@@ -8,7 +8,6 @@ import JustifiedGrid from 'react-justified-grid';
 import './App.css';
 
 import logo from './images/logo.jpg';
-// import header from './images/header.jpg';
 
 import laury from './images/laury.png';
 import marki from './images/marki.png';
@@ -34,60 +33,47 @@ import portfolio6 from "./images/portfolio/6.png";
 
 import footer from "./images/footer.jpg";
 
-// const MAP = [
-//   {
-//     "src": portfolio1,
-//     "alt": "ambiwalentnie",
-//   },
-//   {
-//     "src": portfolio2,
-//     "alt": "grzech",
-//   },
-//   {
-//     "src": portfolio3,
-//     "alt": "Harnaś",
-//   },
-//   {
-//     "src": portfolio4,
-//     "alt": "knorr",
-//   }
-// ]
-
 const PORTFOLIO = [
   {
     src: portfolio1,
     width: 698,
     height: 297,
+    alt: "Black Jeans - Ambiwalentnie",
     originalData: 'https://vimeo.com/388824268'
   },
   {
     src: portfolio2,
     width: 698,
     height: 297,
-    originalData: 'https://vimeo.com/388824268'
+    alt: 'Black Jeans - Grzech',
+    originalData: 'https://vimeo.com/388027864'
   },
   {
     src: portfolio3,
     width: 698,
     height: 297,
+    alt: 'Harnaś - Przełam rutynę!',
     originalData: 'https://vimeo.com/388824268'
   },
   {
     src: portfolio4,
     width: 698,
     height: 297,
+    alt: 'Knorr - Mistrzowie kuchni',
     originalData: 'https://vimeo.com/388824268'
   },
   {
     src: portfolio5,
     width: 698,
     height: 297,
+    alt: 'Redleaf - Zamieszanie',
     originalData: 'https://vimeo.com/399341592'
   },
   {
     src: portfolio6,
     width: 698,
     height: 297,
+    alt: 'Somersby - Kalambury',
     originalData: 'https://vimeo.com/388825454'
   }
 ];
@@ -132,19 +118,18 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
               className="w3-bar-item w3-button w3-padding w3-hide-small"
-              style={{ marginLeft: '120px' }}
+              style={{ marginLeft: '80px' }}
             >
-              <i className="fa fa-vimeo w3-hover-opacity" style={{ marginRight: '10px' }}/>
+              <i className="fa fa-vimeo w3-hover-opacity" style={{ marginRight: '10px' }} />
               Vimeo
             </a>
             {/*  <a href="javascript:void(0)" className="w3-bar-item w3-button w3-padding w3-hide-small">
             <i className="fa fa-envelope w3-hover-opacity"></i>
-          </a> */}
+              </a> */}
           </div>
         </div>
       </div>
 
-      {/*  Navbar on small screens (remove the onClick attribute if you want the navbar to always show on top of the content when clicking on the links) */}
       <div
         id="navDemo"
         className={classNames(
@@ -165,16 +150,9 @@ function App() {
       {/*  Page content */}
       <div className="w3-content" style={{ maxWidth: '2000px', marginTop: '84px' }}>
 
-        {/* <img
-            src={header}
-            alt="header"
-            style={{ width: '100%' }}
-          /> */}
-
         <YoutubeBackground
           videoId='9z3feC9GMzc'
           className='videoHeight'
-        // style={{ width: '100px' }}
         >
           <div className="w3-center w3-display-container w3-padding-32">
             <div className="w3-container w3-text-white w3-padding-32 w3-hide-small">
@@ -195,16 +173,14 @@ function App() {
 
         </YoutubeBackground>
 
-        {/*  Automatic Slideshow Images */}
+        {/*  Laury */}
 
         <div className="w3-padding-16 w3-display-container w3-center w3-black">
           <img src={laury} alt="laury" style={{ maxWidth: '100%' }} />
         </div>
 
-        {/*  The Portfolio Section */}
+        {/*  Portfolio */}
 
-
-        {/* TUTAJ PORTFOLIO */}
         <div className="w3-display-container" id="portfolio">
           <JustifiedGrid
             images={PORTFOLIO}
@@ -217,11 +193,15 @@ function App() {
               return (
                 <>
                   {processedImages.map(image => {
-                    const { src, width, height, originalData } = image;
-                    // console.log(image)
+                    const { src, alt, width, height, originalData } = image;
                     return (
-                      <a key={src} alt="lol" href={originalData.originalData} target="_blank" rel="noopener noreferrer">
-                        <img src={src} width={width} height={height} alt="" />
+                      <a key={src} alt="" href={originalData.originalData} target="_blank" rel="noopener noreferrer">
+                        <div className="img__wrap">
+                          <img src={src} width={width} height={height} alt="" />
+                          <div className="img__description">
+                            <p className="img__title">{alt}</p>
+                          </div>
+                        </div>
                       </a>
                     );
                   })}

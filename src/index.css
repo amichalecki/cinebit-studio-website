@@ -50,14 +50,6 @@ li {
 
 /* relevant styles */
 
-.portfolio__box {
-    padding-bottom: 20px;
-}
-
-.portfolio__title {
-    padding: 0 20px;
-}
-
 .team {
     filter: grayscale(100%);
 }
@@ -74,6 +66,7 @@ li {
 
 .img__wrap {
     position: relative;
+    float: left;
   }
   
   .img__description {
@@ -84,8 +77,8 @@ li {
     justify-content: center;
     top: 0;
     bottom: 0;
-    left: 8px;
-    right: 8px;
+    left: 0;
+    right: 0;
     background: #7777778e;
     color: #fff;
     visibility: hidden;
@@ -98,4 +91,8 @@ li {
   .img__wrap:hover .img__description {
     visibility: visible;
     opacity: 1;
+  }
+
+  .img__title {
+      font-size: 2rem;
   }
