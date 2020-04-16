@@ -16,10 +16,13 @@ function Modal(props) {
         />
         <div className="portfolio__box">
 
-          {props.production && <>
+          {props.title &&
             <p className="portfolio__title">
               {props.title}
             </p>
+          }
+          
+          {props.production && <>
             <ul>
               {props.production.map((el, i) => (
                 <li key={i}>{el}</li>
@@ -30,7 +33,7 @@ function Modal(props) {
           {props.cast && <>
             <p className="portfolio__title">
               Wystąpili:
-          </p>
+            </p>
             <ul>
               {props.cast.map((el, i) => (
                 <li key={i}>{el}</li>

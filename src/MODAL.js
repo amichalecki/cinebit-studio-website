@@ -59,31 +59,31 @@ export const MODAL = [
     ]
   },
   {
-    alt: 'Harnaś - Przełam rutynę!',
-    src: 'https://player.vimeo.com/video/388824268',
-    title: '',
-    production: [],
-    cast: []
+    src: 'https://player.vimeo.com/video/388823919',
+    title: 'Harnaś - Przełam rutynę!',
+    production: null,
+    cast: null,
+    special: null
   },
   {
-    alt: 'Knorr - Mistrzowie kuchni',
-    src: 'https://player.vimeo.com/video/388824268',
-    title: '',
-    production: [],
-    cast: []
+    src: 'https://player.vimeo.com/video/388829493',
+    title: 'Knorr - Mistrzowie kuchni',
+    production: null,
+    cast: null,
+    special: null
   },
   {
-    alt: 'Redleaf - Zamieszanie',
     src: 'https://player.vimeo.com/video/399341592',
-    title: '',
-    production: [],
-    cast: []
+    title: 'Redleaf - Zamieszanie',
+    production: null,
+    cast: null,
+    special: null
   },
   {
-    alt: 'Somersby - Kalambury',
     src: 'https://player.vimeo.com/video/388825454',
-    title: '',
-    production: [],
-    cast: []
+    title: 'Somersby - Kalambury',
+    production: null,
+    cast: null,
+    special: null
   }
 ];

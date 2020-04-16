@@ -28,7 +28,7 @@ export const PORTFOLIO2 = [
       thumbnailWidth: 698,
       thumbnailHeight: 297,
       caption: 'Harnaś - Przełam rutynę!',
-      originalData: 'https://vimeo.com/388824268'
+      originalData: 'https://vimeo.com/388823919'
     },
     {
       src: portfolio4,
@@ -36,7 +36,7 @@ export const PORTFOLIO2 = [
       thumbnailWidth: 698,
       thumbnailHeight: 297,
       caption: 'Knorr - Mistrzowie kuchni',
-      originalData: 'https://vimeo.com/388824268'
+      originalData: 'https://vimeo.com/388829493'
     },
     {
       src: portfolio5,

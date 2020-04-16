@@ -25,14 +25,14 @@ export const PORTFOLIO = [
     width: 698,
     height: 297,
     alt: 'Harnaś - Przełam rutynę!',
-    originalData: 'https://vimeo.com/388824268'
+    originalData: 'https://vimeo.com/388823919'
   },
   {
     src: portfolio4,
     width: 698,
     height: 297,
     alt: 'Knorr - Mistrzowie kuchni',
-    originalData: 'https://vimeo.com/388824268'
+    originalData: 'https://vimeo.com/388829493'
   },
   {
     src: portfolio5,
