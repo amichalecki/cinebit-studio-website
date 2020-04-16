@@ -12,71 +12,9 @@ import logo from './images/logo.jpg';
 import laury from './images/laury.png';
 import marki from './images/marki.png';
 
-import portfolio1 from "./images/portfolio/1.png";
-import portfolio2 from "./images/portfolio/2.png";
-import portfolio3 from "./images/portfolio/3.png";
-import portfolio4 from "./images/portfolio/4.png";
-import portfolio5 from "./images/portfolio/5.png";
-import portfolio6 from "./images/portfolio/6.png";
-
-// import middle1 from "./images/middle/1.jpg";
-// import middle2 from "./images/middle/2.jpg";
-// import middle3 from "./images/middle/3.jpg";
-
-// import foto1 from "./images/team/artur.jpg";
-// import foto2 from "./images/team/kasia.jpg";
-// import foto3 from "./images/team/tj.jpg";
-// import foto4 from "./images/team/andy.jpg";
-// import foto5 from "./images/team/ola.jpg";
-// import foto6 from "./images/team/wasyl.jpg";
-// import foto7 from "./images/team/rogogon.jpg";
+import { PORTFOLIO } from './PORTFOLIO';
 
 import footer from "./images/footer.jpg";
-
-const PORTFOLIO = [
-  {
-    src: portfolio1,
-    width: 698,
-    height: 297,
-    alt: "Black Jeans - Ambiwalentnie",
-    originalData: 'https://vimeo.com/388824268'
-  },
-  {
-    src: portfolio2,
-    width: 698,
-    height: 297,
-    alt: 'Black Jeans - Grzech',
-    originalData: 'https://vimeo.com/388027864'
-  },
-  {
-    src: portfolio3,
-    width: 698,
-    height: 297,
-    alt: 'Harnaś - Przełam rutynę!',
-    originalData: 'https://vimeo.com/388824268'
-  },
-  {
-    src: portfolio4,
-    width: 698,
-    height: 297,
-    alt: 'Knorr - Mistrzowie kuchni',
-    originalData: 'https://vimeo.com/388824268'
-  },
-  {
-    src: portfolio5,
-    width: 698,
-    height: 297,
-    alt: 'Redleaf - Zamieszanie',
-    originalData: 'https://vimeo.com/399341592'
-  },
-  {
-    src: portfolio6,
-    width: 698,
-    height: 297,
-    alt: 'Somersby - Kalambury',
-    originalData: 'https://vimeo.com/388825454'
-  }
-];
 
 function App() {
   const [showNavDemo, setShowNavDemo] = useState(true);

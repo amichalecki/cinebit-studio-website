@@ -67,6 +67,7 @@ li {
 .img__wrap {
     position: relative;
     float: left;
+    width: 33.3%;
   }
   
   .img__description {
@@ -96,3 +97,19 @@ li {
   .img__title {
       font-size: 2rem;
   }
+
+  @media only screen and (max-width: 992px) {
+    .img__wrap {
+        width: 50%;
+      }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .img__wrap {
+        width: 100%;
+      }
+  }
+
+
+
+  
