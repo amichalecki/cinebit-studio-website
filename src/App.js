@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import classNames from 'classnames';
 import YoutubeBackground from 'react-youtube-background';
 import JustifiedGrid from 'react-justified-grid';
+import Modal from './components/modal/modal';
 
 import './App.css';
 
@@ -13,11 +14,14 @@ import laury from './images/laury.png';
 import marki from './images/marki.png';
 
 import { PORTFOLIO } from './PORTFOLIO';
+import { MODAL } from './MODAL';
 
 import footer from "./images/footer.jpg";
 
 function App() {
   const [showNavDemo, setShowNavDemo] = useState(true);
+  const [toogleModal, setToogleModal] = useState(false);
+  const [modalNumber, setModalNumber] = useState(null);
 
   // Used to toggle the menu on small screens when clicking on the menu button
   function handleMenuToogle() {
@@ -130,17 +134,22 @@ function App() {
             {processedImages => {
               return (
                 <>
-                  {processedImages.map(image => {
-                    const { src, alt, width, height, originalData } = image;
+                  {processedImages.map((image, i) => {
+                    const { src, alt, width, height } = image;
                     return (
-                      <a key={src} alt="" href={originalData.originalData} target="_blank" rel="noopener noreferrer">
-                        <div className="img__wrap">
-                          <img src={src} width={width} height={height} alt="" />
-                          <div className="img__description">
-                            <p className="img__title">{alt}</p>
-                          </div>
+                      <div
+                        key={src}
+                        className="img__wrap"
+                        onClick={() => {
+                          setToogleModal(true)
+                          setModalNumber(i)
+                        }}
+                      >
+                        <img src={src} width={width} height={height} alt="" />
+                        <div className="img__description">
+                          <p className="img__title">{alt}</p>
                         </div>
-                      </a>
+                      </div>
                     );
                   })}
                 </>
@@ -189,6 +198,8 @@ function App() {
       <a href="javascript:void(0)" className="w3-padding"><i className="fa fa-instagram w3-hover-opacity"></i></a> */}
         <a href="https://vimeo.com/cinebitstudio" target="_blank" rel="noopener noreferrer" className="w3-padding"><i className="fa fa-vimeo w3-hover-opacity"></i></a>
       </footer>
+
+      {toogleModal && <Modal {...MODAL[modalNumber]} setToogleModal={() => setToogleModal(false)} />}
     </>
   );
 }

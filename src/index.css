@@ -20,8 +20,8 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
-.mySlides {
-    display: none;
+iframe {
+    border: 0;
 }
 
 .text-left {
@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
     padding: 0 !important;
+}
+
+.w3-modal {
+    display: block;
 }
 
 .w3-modal-content {
