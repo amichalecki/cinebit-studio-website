@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Then you need update domain `cinebitstudio.pl` link
 
 ```
-this can be probably fixed by code, by now you need to do it evertime you deploy
+this can be probably fixed by code, by now you need to do it evertime you deploy - https://github.com/tschaub/gh-pages/issues/347
 ```
 
 https://github.com/dzienisz/cinebit-studio-website/settings
