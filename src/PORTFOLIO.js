@@ -1,9 +1,9 @@
-import portfolio1 from "./images/portfolio/1.png";
-import portfolio2 from "./images/portfolio/2.png";
-import portfolio3 from "./images/portfolio/3.png";
-import portfolio4 from "./images/portfolio/4.png";
-import portfolio5 from "./images/portfolio/5.png";
-import portfolio6 from "./images/portfolio/6.png";
+import portfolio1 from "./images/portfolio/ambiwalentnie.png";
+import portfolio2 from "./images/portfolio/grzech.png";
+import portfolio3 from "./images/portfolio/harnas.png";
+import portfolio4 from "./images/portfolio/knorr.png";
+import portfolio5 from "./images/portfolio/redleaf.png";
+import portfolio6 from "./images/portfolio/sommersby.png";
 
 export const PORTFOLIO = [
   {
