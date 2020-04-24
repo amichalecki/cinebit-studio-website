@@ -22,6 +22,7 @@ function App() {
   const [showNavDemo, setShowNavDemo] = useState(true);
   const [toogleModal, setToogleModal] = useState(false);
   const [modalNumber, setModalNumber] = useState(null);
+  const [modalData, setModalData] = useState({});
 
   // Used to toggle the menu on small screens when clicking on the menu button
   function handleMenuToogle() {
@@ -126,26 +127,26 @@ function App() {
         <div className="w3-display-container" id="portfolio">
           <JustifiedGrid
             images={PORTFOLIO}
-            rows={10}
-            maxRowHeight={300}
+            rows={9}
+            maxRowHeight={250}
             showIncompleteRow
-            gutter={5}
           >
             {processedImages => {
               return (
                 <>
                   {processedImages.map((image, i) => {
-                    const { src, alt, width, height } = image;
+                    const { src, alt, width, height, originalData } = image;
                     return (
                       <div
-                        key={src}
+                        key={i}
                         className="img__wrap"
                         onClick={() => {
                           setToogleModal(true)
                           setModalNumber(i)
+                          setModalData(originalData)
                         }}
                       >
-                        <img src={src} width={width} height={height} alt="" />
+                        <img src={src} width={width} height={height} alt={alt} />
                         <div className="img__description">
                           <p className="img__title">{alt}</p>
                         </div>
@@ -199,7 +200,7 @@ function App() {
         <a href="https://vimeo.com/cinebitstudio" target="_blank" rel="noopener noreferrer" className="w3-padding"><i className="fa fa-vimeo w3-hover-opacity"></i></a>
       </footer>
 
-      {toogleModal && <Modal {...MODAL[modalNumber]} setToogleModal={() => setToogleModal(false)} />}
+      {toogleModal && <Modal {...MODAL[modalNumber]} data={modalData} setToogleModal={() => setToogleModal(false)} />}
     </>
   );
 }

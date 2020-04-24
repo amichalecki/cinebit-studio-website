@@ -6,7 +6,7 @@ function Modal(props) {
     <div id="portfolio" className="w3-modal" onClick={() => props.setToogleModal()}>
       <div className="w3-modal-content w3-animate-top w3-card-4">
         <Iframe
-          title="ambiwalentie"
+          title={props.alt}
           src={props.src}
           width="640"
           height="272"
