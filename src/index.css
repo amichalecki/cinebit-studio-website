@@ -117,3 +117,20 @@ li {
     padding: 0 20px 10px 20px;
 }
   
+.videoHeight {
+    margin-top: 84px;
+  }
+  
+.showreel--button-container {
+    padding-bottom: 32px;
+}
+  
+.showreel--button {
+    padding-bottom: 32px;
+    border: 1px white solid;
+}
+  
+.playerMobile { 
+    max-width: 100%;
+}
+  

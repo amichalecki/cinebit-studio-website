@@ -13,6 +13,7 @@ function Modal(props) {
           frameborder="0"
           allow="autoplay; fullscreen"
           allowfullscreen
+          className="playerMobile"
         />
         <div className="portfolio__box">
 
@@ -21,7 +22,7 @@ function Modal(props) {
               {props.title}
             </p>
           }
-          
+
           {props.production && <>
             <ul>
               {props.production.map((el, i) => (

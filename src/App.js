@@ -6,8 +6,6 @@ import YoutubeBackground from 'react-youtube-background';
 import JustifiedGrid from 'react-justified-grid';
 import Modal from './components/modal/modal';
 
-import './App.css';
-
 import logo from './images/logo.jpg';
 
 import laury from './images/laury.png';

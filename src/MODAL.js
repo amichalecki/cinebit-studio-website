@@ -1,6 +1,6 @@
 export const MODAL = [
   {
-    alt: "Black Jeans - Ambiwalentnie",
+    alt: 'Black Jeans - Ambiwalentnie',
     src: 'https://player.vimeo.com/video/388824268',
     title: 'Teledysk do utworu Ambiwalentnie zespołu Black Jeans.',
     production: [
@@ -59,6 +59,7 @@ export const MODAL = [
     ]
   },
   {
+    alt: 'Harnaś - Przełam rutynę!',
     src: 'https://player.vimeo.com/video/388823919',
     title: 'Harnaś - Przełam rutynę!',
     production: null,
@@ -66,6 +67,7 @@ export const MODAL = [
     special: null
   },
   {
+    alt: 'Knorr - Mistrzowie kuchni',
     src: 'https://player.vimeo.com/video/388829493',
     title: 'Knorr - Mistrzowie kuchni',
     production: null,
@@ -73,6 +75,7 @@ export const MODAL = [
     special: null
   },
   {
+    alt: 'Redleaf - Zamieszanie',
     src: 'https://player.vimeo.com/video/399341592',
     title: 'Redleaf - Zamieszanie',
     production: null,
@@ -80,6 +83,7 @@ export const MODAL = [
     special: null
   },
   {
+    alt: 'Somersby - Kalambury',
     src: 'https://player.vimeo.com/video/388825454',
     title: 'Somersby - Kalambury',
     production: null,
@@ -87,6 +91,7 @@ export const MODAL = [
     special: null
   },
   {
+    alt: 'Paweł Tur - Tanki',
     src: 'https://player.vimeo.com/video/402689876',
     title: 'Paweł Tur - Tanki',
     production: null,
@@ -94,6 +99,7 @@ export const MODAL = [
     special: null
   },
   {
+    alt: 'Sprite - Otwieracze',
     src: 'https://player.vimeo.com/video/388826598',
     title: 'Sprite - Otwieracze',
     production: null,
@@ -101,6 +107,7 @@ export const MODAL = [
     special: null
   },
   {
+    alt: 'Sigals - Bieg lat',
     src: 'https://player.vimeo.com/video/388825157',
     title: 'Sigals - Bieg lat',
     production: null,
