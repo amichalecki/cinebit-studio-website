@@ -85,5 +85,26 @@ export const MODAL = [
     production: null,
     cast: null,
     special: null
+  },
+  {
+    src: 'https://player.vimeo.com/video/402689876',
+    title: 'Paweł Tur - Tanki',
+    production: null,
+    cast: null,
+    special: null
+  },
+  {
+    src: 'https://player.vimeo.com/video/388826598',
+    title: 'Sprite - Otwieracze',
+    production: null,
+    cast: null,
+    special: null
+  },
+  {
+    src: 'https://player.vimeo.com/video/388825157',
+    title: 'Sigals - Bieg lat',
+    production: null,
+    cast: null,
+    special: null
   }
 ];
