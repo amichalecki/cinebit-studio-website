@@ -127,7 +127,7 @@ function App() {
           <JustifiedGrid
             images={PORTFOLIO}
             rows={10}
-            maxRowHeight={400}
+            maxRowHeight={300}
             showIncompleteRow
             gutter={5}
           >

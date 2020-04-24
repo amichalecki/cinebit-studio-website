@@ -4,6 +4,9 @@ import portfolio3 from "./images/portfolio/harnas.png";
 import portfolio4 from "./images/portfolio/knorr.png";
 import portfolio5 from "./images/portfolio/redleaf.png";
 import portfolio6 from "./images/portfolio/sommersby.png";
+import portfolio7 from "./images/portfolio/tanki.png";
+import portfolio8 from "./images/portfolio/sprite.png";
+import portfolio9 from "./images/portfolio/sigals.png";
 
 export const PORTFOLIO = [
   {
@@ -47,5 +50,26 @@ export const PORTFOLIO = [
     height: 297,
     alt: 'Somersby - Kalambury',
     originalData: 'https://vimeo.com/388825454'
+  },
+  {
+    src: portfolio7,
+    width: 698,
+    height: 297,
+    alt: 'Paweł Tur - Tanki',
+    originalData: 'https://vimeo.com/402689876'
+  },
+  {
+    src: portfolio8,
+    width: 698,
+    height: 297,
+    alt: 'Sprite - Otwieracze',
+    originalData: 'https://vimeo.com/388826598'
+  },
+  {
+    src: portfolio9,
+    width: 698,
+    height: 297,
+    alt: 'Sigals - Bieg lat',
+    originalData: 'https://vimeo.com/388825157'
   }
 ];
