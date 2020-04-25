@@ -27,3 +27,9 @@ this can be probably fixed by code, by now you need to do it evertime you deploy
 ```
 
 ![domain](domain.png)
+
+## Google Analitics
+
+[https://analytics.google.com/analytics/web/](https://analytics.google.com/analytics/web/)
+
+You need priviliges from somebody that is Admin
