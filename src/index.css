@@ -71,6 +71,7 @@ li {
 .img__wrap {
     position: relative;
     float: left;
+    overflow:auto;
   }
   
   .img__description {
