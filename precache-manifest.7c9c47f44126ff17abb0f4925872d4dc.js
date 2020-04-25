@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "deb52ddb11dade839fa1ea7e30889a28",
+    "revision": "3ddc504c2bd286008e01d81b5aa9c59c",
     "url": "/index.html"
   },
   {
-    "revision": "cd8ee8eef000462dfdce",
+    "revision": "1806ab62a1fc6ce7eba6",
     "url": "/static/css/main.f8a99aa1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a6dc1587.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd8ee8eef000462dfdce",
-    "url": "/static/js/main.d12e22e7.chunk.js"
+    "revision": "1806ab62a1fc6ce7eba6",
+    "url": "/static/js/main.9ec7177e.chunk.js"
   },
   {
     "revision": "afa7679d5e6dcafa4456",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/marki.52beef3d.png"
   },
   {
-    "revision": "92c0b57dd715a8759fe402ee7726291e",
-    "url": "/static/media/redleaf.92c0b57d.png"
+    "revision": "5116010e46316d32732aae3af1d382ff",
+    "url": "/static/media/redleaf.5116010e.png"
   },
   {
     "revision": "b5cc896e2da5721e31cce76c9ee42766",
