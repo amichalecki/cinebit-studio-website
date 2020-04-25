@@ -122,7 +122,7 @@ function App() {
 
         {/*  Portfolio */}
 
-        <div className="w3-display-container" id="portfolio">
+        <div className="w3-display-container w3-center" id="portfolio">
           <JustifiedGrid
             images={PORTFOLIO}
             rows={9}
