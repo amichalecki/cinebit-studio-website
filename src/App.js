@@ -171,8 +171,8 @@ function App() {
             <div className="w3-center">
               <div className="w3-margin-bottom">
                 {/* <i className="fa fa-phone" style={{ width: '30px' }}></i> Tel:  */}
-                <a className="link" href="tel:+48660696558">
-                  +48 660696558
+                <a className="link" href="tel:+48669994505">
+                  +48 669994505
                   </a>
               </div>
               <div className="w3-large w3-margin-bottom">
