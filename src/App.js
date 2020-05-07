@@ -5,6 +5,7 @@ import classNames from 'classnames';
 import YoutubeBackground from 'react-youtube-background';
 import JustifiedGrid from 'react-justified-grid';
 import Modal from './components/modal/modal';
+import ImageTable from './components/imageTable/imageTable';
 
 import logo from './images/logo.jpg';
 
@@ -13,6 +14,7 @@ import marki from './images/marki.png';
 
 import { PORTFOLIO } from './PORTFOLIO';
 import { MODAL } from './MODAL';
+import * as serviceWorker from './serviceWorker';
 
 import footer from "./images/footer.jpg";
 
@@ -123,17 +125,23 @@ function App() {
         {/*  Portfolio */}
 
         <div className="w3-display-container w3-center" id="portfolio">
-          <JustifiedGrid
+          {/* <JustifiedGrid
             images={PORTFOLIO}
             rows={9}
-            maxRowHeight={300}
+            maxRowHeight={serviceWorker.calculateGridFragSize().height + 10}
             showIncompleteRow
           >
             {processedImages => {
+              console.log(window.innerWidth);
+              console.log(serviceWorker.calculateGridFragSize());
               return (
                 <>
                   {processedImages.map((image, i) => {
-                    const { src, alt, width, height, originalData } = image;
+                    // const image_calc_size = serviceWorker.calculateGridFragSize();
+                    let { src, alt, width, height, originalData } = image;
+                    if (i==0) console.log(image);
+                    // width = image_calc_size.width;
+                    // height = image_calc_size.height;
                     return (
                       <div
                         key={i}
@@ -154,9 +162,11 @@ function App() {
                 </>
               );
             }}
-          </JustifiedGrid>
+          </JustifiedGrid> */}
+          <ImageTable portfolio={PORTFOLIO}/>
         </div>
 
+        {/*  The Companies Section */}
         <div className="w3-padding-16 w3-display-container w3-center w3-black">
           <img src={marki} alt="marki" style={{ maxWidth: '100%' }} />
         </div>

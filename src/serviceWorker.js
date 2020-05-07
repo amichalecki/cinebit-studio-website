@@ -10,6 +10,13 @@
 // To learn more about the benefits of this model and instructions on how to
 // opt-in, read https://bit.ly/CRA-PWA
 
+import { PORT_IMG_WIDTH, PORT_IMG_HEIGHT } from './PORTFOLIO';
+
+export class ImageSize {
+  width;
+  height;
+}
+
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
     // [::1] is the IPv6 localhost address.
@@ -138,4 +145,20 @@ export function unregister() {
         console.error(error.message);
       });
   }
+}
+
+export function calculateGridFragSize() {
+  let width = 0;
+  if (window.innerWidth > 800) {
+    width = window.innerWidth / 3;
+  } else {
+    width = window.innerWidth;
+  }
+
+  const height = width * PORT_IMG_HEIGHT/PORT_IMG_WIDTH;
+  const size = new ImageSize();
+  size.width = width;
+  size.height = height;
+
+  return size;
 }
