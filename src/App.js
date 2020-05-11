@@ -124,7 +124,7 @@ function App() {
 
         {/*  Portfolio */}
 
-        <div className="w3-display-container w3-center" id="portfolio">
+        <div className="w3-display-container w3-center anchor__offset" id="portfolio">
           {/* <JustifiedGrid
             images={PORTFOLIO}
             rows={9}
@@ -172,7 +172,7 @@ function App() {
         </div>
 
         {/*  The Contact Section */}
-        <div className="w3-display-container" id="contact">
+        <div className="w3-display-container anchor__offset" id="contact">
           <img src={footer} className="w3-image w3-greyscale-min" style={{ width: '100%' }} alt="" />
           <div className="w3-display-middle w3-container w3-text-white w3-padding-32">
             <h2 className="w3-wide w3-center">CONTACT</h2>

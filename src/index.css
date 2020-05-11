@@ -52,6 +52,11 @@ li {
     font-size: 16px;
 }
 
+.anchor__offset {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
 /* relevant styles */
 
 .team {
