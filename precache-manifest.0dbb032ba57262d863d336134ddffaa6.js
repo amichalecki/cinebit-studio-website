@@ -1,47 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e372aed7afbf44e98dc92860e9bc3697",
+    "revision": "0cdcd3cbb73f4f91ebfcbe91e8a38a35",
     "url": "/index.html"
   },
   {
-    "revision": "70e897f5a24eb77e8868",
-    "url": "/static/css/main.f4cc1ebc.chunk.css"
+    "revision": "889cdbdd6d96e8d86c92",
+    "url": "/static/css/main.011f64f8.chunk.css"
   },
   {
-    "revision": "6667a83ebe5a9003575b",
-    "url": "/static/js/2.a6dc1587.chunk.js"
+    "revision": "a6478414911ee9977817",
+    "url": "/static/js/2.dd8a65c0.chunk.js"
   },
   {
-    "revision": "503efef1e6927547565ec915fa5a8809",
-    "url": "/static/js/2.a6dc1587.chunk.js.LICENSE.txt"
+    "revision": "208011e8eefeb5c2e550ae33a4774bd2",
+    "url": "/static/js/2.dd8a65c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70e897f5a24eb77e8868",
-    "url": "/static/js/main.a05b24d5.chunk.js"
+    "revision": "889cdbdd6d96e8d86c92",
+    "url": "/static/js/main.772c6040.chunk.js"
   },
   {
     "revision": "afa7679d5e6dcafa4456",
     "url": "/static/js/runtime-main.c888297c.js"
   },
   {
-    "revision": "ce981399f6591fcd220799c13f6409e7",
-    "url": "/static/media/ambiwalentnie.ce981399.png"
+    "revision": "69f194b01b2333a83c071cd229683c36",
+    "url": "/static/media/ambiwalentnie.69f194b0.png"
   },
   {
     "revision": "6611eb6f8a8a5bfbf18a7b056bad883e",
     "url": "/static/media/footer.6611eb6f.jpg"
   },
   {
-    "revision": "baab82e8372954d7a26873a76f4d5dac",
-    "url": "/static/media/grzech.baab82e8.png"
+    "revision": "0f9f6909d974a9dc46609162186e3116",
+    "url": "/static/media/grzech.0f9f6909.png"
   },
   {
-    "revision": "a6bf2713b04b3467e51fcfaa6ce834a9",
-    "url": "/static/media/harnas.a6bf2713.png"
+    "revision": "cb17fc923ea8cc52e7aef24122bcb4b7",
+    "url": "/static/media/harnas.cb17fc92.png"
   },
   {
-    "revision": "779f97da4836d941204ce10144fd71e5",
-    "url": "/static/media/knorr.779f97da.png"
+    "revision": "59ebfae5c1927d27b788b34ec9113e8d",
+    "url": "/static/media/knorr.59ebfae5.png"
   },
   {
     "revision": "8ad59b490a9470f649f2abfe253e960d",
