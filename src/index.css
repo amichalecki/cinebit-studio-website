@@ -43,7 +43,7 @@ iframe {
 }
 
 .w3-modal-content {
-    width: fit-content;
+    width: 640px;
     background-color: black;
     color: white;
 }
@@ -74,6 +74,7 @@ li {
     border: 0;
     border-collapse: collapse;
     border-spacing: 0;
+    width: 100%;
 }
 
 td {
@@ -91,6 +92,8 @@ td {
     position: relative;
     float: left;
     overflow:auto;
+    width: 100%;
+    height: auto;
   }
   
   .img__description {
@@ -121,7 +124,7 @@ td {
       font-size: 2rem;
   }
 
-  @media only screen and (min-width: 801px) {
+/*   @media only screen and (min-width: 801px) {
     .img__wrap {
         width: 33.3%;
       }
@@ -131,11 +134,12 @@ td {
     .img__wrap {
         width: 100%;
       }
-  }
+  } */
 
 .portfolio__box {
     padding: 0 20px 10px 20px;
-    width: 640px;
+    /* width: 640px; */
+    text-align: left;
 }
   
 .videoHeight {

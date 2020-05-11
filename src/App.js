@@ -20,9 +20,9 @@ import footer from "./images/footer.jpg";
 
 function App() {
   const [showNavDemo, setShowNavDemo] = useState(true);
-  const [toogleModal, setToogleModal] = useState(false);
+  /* const [toogleModal, setToogleModal] = useState(false);
   const [modalNumber, setModalNumber] = useState(null);
-  const [modalData, setModalData] = useState({});
+  const [modalData, setModalData] = useState({}); */
 
   // Used to toggle the menu on small screens when clicking on the menu button
   function handleMenuToogle() {
@@ -208,7 +208,7 @@ function App() {
         <a href="https://vimeo.com/cinebitstudio" target="_blank" rel="noopener noreferrer" className="w3-padding"><i className="fa fa-vimeo w3-hover-opacity"></i></a>
       </footer>
 
-      {toogleModal && <Modal {...MODAL[modalNumber]} data={modalData} setToogleModal={() => setToogleModal(false)} />}
+      {/* {toogleModal && <Modal {...MODAL[modalNumber]} data={modalData} setToogleModal={() => setToogleModal(false)} />} */}
     </>
   );
 }
