@@ -175,17 +175,17 @@ function App() {
         <div className="w3-display-container anchor__offset" id="contact">
           <img src={footer} className="w3-image w3-greyscale-min" style={{ width: '100%' }} alt="" />
           <div className="w3-display-middle w3-container w3-text-white w3-padding-32">
-            <h2 className="w3-wide w3-center">CONTACT</h2>
+            <div className="w3-center contact">CONTACT</div> {/* w3-wide */}
             {/* <p className="w3-center">Zainteresowany?</p> */}
             {/* <p className="w3-center">Napisz!</p> */}
             <div className="w3-center">
-              <div className="w3-margin-bottom">
+              <div className="w3-margin-bottom phone">
                 {/* <i className="fa fa-phone" style={{ width: '30px' }}></i> Tel:  */}
                 <a className="link" href="tel:+48669994505">
                   +48 669994505
                   </a>
               </div>
-              <div className="w3-large w3-margin-bottom">
+              <div className="w3-margin-bottom mail"> {/* w3-large */}
                 {/* <i className="fa fa-envelope" style={{ width: '30px' }}> </i> Email:  */}
                 <a className="link" href="mailto:info@cinebitstudio.pl">
                   info@cinebitstudio.pl

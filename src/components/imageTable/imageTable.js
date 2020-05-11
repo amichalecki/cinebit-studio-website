@@ -27,7 +27,7 @@ function ImageTable(properties) {
                                     const wdth_expression = wdth + '%';
                                     let { src, alt, /* width, height,  */originalData } = image;
                                     return (
-                                    <td width={wdth_expression}>
+                                    <td width={wdth_expression} className="portfolio__cell">
                                         <div
                                         key={i}
                                         className="img__wrap"
