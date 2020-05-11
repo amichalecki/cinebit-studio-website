@@ -5,8 +5,8 @@ import { MODAL } from '../../MODAL';
 import {
     BrowserView,
     MobileView,
-    isBrowser,
-    isMobile
+    /* isBrowser,
+    isMobile */
 } from 'react-device-detect';
 
  // Image size must be 1920 x 804
@@ -25,7 +25,7 @@ function ImageTable(properties) {
                                 if (Math.floor(i / 3) === Math.floor(obj / 3)) {
                                     const wdth = 100 / 3;
                                     const wdth_expression = wdth + '%';
-                                    let { src, alt, width, height, originalData } = image;
+                                    let { src, alt, /* width, height,  */originalData } = image;
                                     return (
                                     <td width={wdth_expression}>
                                         <div
@@ -44,11 +44,15 @@ function ImageTable(properties) {
                                         </div>
                                     </td>
                                     )
+                                } else {
+                                    return('');
                                 }
                             })
                             }
                         </tr>
                         )
+                    } else {
+                        return('');
                     }
                 })
                 }
@@ -57,7 +61,7 @@ function ImageTable(properties) {
                 { properties.portfolio.map((image, i) => {
                     const wdth = 100 / 3;
                     const wdth_expression = wdth + '%';
-                    let { src, alt, width, height, originalData } = image;
+                    let { src, alt, /* width, height,  */originalData } = image;
                     return (
                         <tr>
                             <td width={wdth_expression}>

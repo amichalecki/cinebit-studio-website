@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import YoutubeBackground from 'react-youtube-background';
-import JustifiedGrid from 'react-justified-grid';
-import Modal from './components/modal/modal';
+/* import JustifiedGrid from 'react-justified-grid';
+import Modal from './components/modal/modal'; */
 import ImageTable from './components/imageTable/imageTable';
 
 import logo from './images/logo.jpg';
@@ -13,8 +13,8 @@ import laury from './images/laury.png';
 import marki from './images/marki.png';
 
 import { PORTFOLIO } from './PORTFOLIO';
-import { MODAL } from './MODAL';
-import * as serviceWorker from './serviceWorker';
+/* import { MODAL } from './MODAL';
+import * as serviceWorker from './serviceWorker'; */
 
 import footer from "./images/footer.jpg";
 
