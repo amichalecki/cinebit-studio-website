@@ -131,7 +131,7 @@ td {
   }
 
   .img__title {
-      font-size: 2em;
+      font-size: 1.7em;
   }
 
 /*   @media only screen and (min-width: 801px) {
@@ -150,20 +150,50 @@ td {
     padding: 0 20px 10px 20px;
     /* width: 640px; */
     text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.portfolio__box li {
+    font-size: small;
+}
+
+.display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    -ms-transform: translate(-50%, -35%);
 }
 
 .contact {
     font-size: 4vw;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.manager {
+    font-size: 2.5vw;
+    margin-bottom: 1vh;
+}
+
+.manager-title {
+    font-size: 2.0vw;
+    margin-bottom: 1vh;
+}
+
+.manager-container {
+    margin-bottom: 4vh;
 }
 
 .phone {
     font-size: 2.5vw;
+    margin-bottom: 1vh;
 }
 
 .mail {
     font-size: 2.5vw;
+    margin-bottom: 1vh;
 }
   
 .videoHeight {

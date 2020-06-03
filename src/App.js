@@ -48,6 +48,7 @@ function App() {
             {/* <a href="#who" className="w3-bar-item w3-button w3-padding-large w3-hide-small">KIM JESTEŚMY</a> */}
             {/* <a href="#team" className="w3-bar-item w3-button w3-padding-large w3-hide-small">EKIPA</a> */}
             <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+            {/* <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">EKIPA</a> */}
           </div>
           <div>
             {/*  <a href="javascript:void(0)" className="w3-bar-item w3-button w3-padding w3-hide-small">
@@ -57,14 +58,34 @@ function App() {
             <i className="fa fa-instagram w3-hover-opacity"></i>
           </a> */}
             <a
-              href="https://vimeo.com/cinebitstudio"
+              href="https://vimeo.com/424483935"
               target="_blank"
               rel="noopener noreferrer"
               className="w3-bar-item w3-button w3-padding w3-hide-small"
-              style={{ marginLeft: '80px' }}
+              style={{ marginLeft: '40px' }}
             >
-              <i className="fa fa-vimeo w3-hover-opacity" style={{ marginRight: '10px' }} />
-              Vimeo
+              <i className="fa fa-vimeo w3-hover-opacity" /> {/* style={{ marginRight: '10px' }} */}
+              {/* Vimeo */}
+            </a>
+            <a
+              href="https://www.facebook.com/cinebit.studio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w3-bar-item w3-button w3-padding w3-hide-small"
+              /* style={{ marginLeft: '10px' }} */
+            >
+              <i className="fa fa-facebook w3-hover-opacity" />  {/* style={{ marginRight: '10px' }}  */}
+              {/* Facebook */}
+            </a>
+            <a
+              href="https://www.instagram.com/cinebit.studio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w3-bar-item w3-button w3-padding w3-hide-small"
+              /* style={{ marginLeft: '10px' }} */
+            >
+              <i className="fa fa-instagram w3-hover-opacity" />  {/* style={{ marginRight: '10px' }} */}
+              {/* Instagram */}
             </a>
             {/*  <a href="javascript:void(0)" className="w3-bar-item w3-button w3-padding w3-hide-small">
             <i className="fa fa-envelope w3-hover-opacity"></i>
@@ -94,7 +115,7 @@ function App() {
       <div className="w3-content" style={{ maxWidth: '2000px', marginTop: '84px' }}>
 
         <YoutubeBackground
-          videoId='9z3feC9GMzc'
+          videoId='wjsu_7hRjj8' // 9z3feC9GMzc bCpv8y66oEY
           className='videoHeight'
         >
           <div className="w3-center w3-display-container w3-padding-32">
@@ -174,22 +195,30 @@ function App() {
         {/*  The Contact Section */}
         <div className="w3-display-container anchor__offset" id="contact">
           <img src={footer} className="w3-image w3-greyscale-min" style={{ width: '100%' }} alt="" />
-          <div className="w3-display-middle w3-container w3-text-white w3-padding-32">
+          <div className="display-middle w3-container w3-text-white w3-padding-32">
             <div className="w3-center contact">CONTACT</div> {/* w3-wide */}
             {/* <p className="w3-center">Zainteresowany?</p> */}
             {/* <p className="w3-center">Napisz!</p> */}
-            <div className="w3-center">
-              <div className="w3-margin-bottom phone">
-                {/* <i className="fa fa-phone" style={{ width: '30px' }}></i> Tel:  */}
-                <a className="link" href="tel:+48669994505">
-                  +48 669994505
-                  </a>
+            <div className="w3-center manager-container">
+              <div className="manager"> {/* w3-margin-bottom  */}
+                Katarzyna Bielińska
               </div>
-              <div className="w3-margin-bottom mail"> {/* w3-large */}
+              <div className="manager-title"> {/* w3-margin-bottom  */}
+                Kierownik produkcji
+              </div>
+            </div>
+            <div className="w3-center">
+              <div className="phone"> {/* w3-margin-bottom  */}
+                {/* <i className="fa fa-phone" style={{ width: '30px' }}></i> Tel:  */}
+                <a className="link" href="tel:+48731490153">
+                  +48&nbsp;&nbsp;731&nbsp;&nbsp;490&nbsp;&nbsp;153 
+                </a>
+              </div>
+              <div className="mail"> {/* w3-large w3-margin-bottom */}
                 {/* <i className="fa fa-envelope" style={{ width: '30px' }}> </i> Email:  */}
                 <a className="link" href="mailto:info@cinebitstudio.pl">
                   info@cinebitstudio.pl
-                  </a>
+                </a>
               </div>
             </div>
           </div>
@@ -206,6 +235,8 @@ function App() {
         {/*  <a href="javascript:void(0)" className="w3-padding"><i className="fa fa-facebook-official w3-hover-opacity"></i></a>
       <a href="javascript:void(0)" className="w3-padding"><i className="fa fa-instagram w3-hover-opacity"></i></a> */}
         <a href="https://vimeo.com/cinebitstudio" target="_blank" rel="noopener noreferrer" className="w3-padding"><i className="fa fa-vimeo w3-hover-opacity"></i></a>
+        <a href="https://www.facebook.com/cinebit.studio" target="_blank" rel="noopener noreferrer" className="w3-padding"><i className="fa fa-facebook w3-hover-opacity" /></a>
+        <a href="https://www.instagram.com/cinebit.studio" target="_blank" rel="noopener noreferrer" className="w3-padding"><i className="fa fa-instagram w3-hover-opacity" /></a>
       </footer>
 
       {/* {toogleModal && <Modal {...MODAL[modalNumber]} data={modalData} setToogleModal={() => setToogleModal(false)} />} */}
