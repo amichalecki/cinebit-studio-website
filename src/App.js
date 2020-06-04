@@ -58,7 +58,7 @@ function App() {
             <i className="fa fa-instagram w3-hover-opacity"></i>
           </a> */}
             <a
-              href="https://vimeo.com/424483935"
+              href="https://vimeo.com/cinebitstudio"
               target="_blank"
               rel="noopener noreferrer"
               className="w3-bar-item w3-button w3-padding w3-hide-small"
@@ -125,7 +125,7 @@ function App() {
             </div>
             <div className="w3-container w3-text-white showreel--button-container">
               <a
-                href="https://vimeo.com/cinebitstudio"
+                href="https://vimeo.com/424483935"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w3-bar-item w3-button w3-padding-large showreel--button"
