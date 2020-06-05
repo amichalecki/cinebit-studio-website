@@ -96,7 +96,7 @@ export const MODAL = [
       'Gaffer: Filip Wasilewski Kuba Lempke',
       'Makeup: Joanna Kulasza',
       'Fotosy: Emilia Abłażewicz Fotografia',
-      'VFX: Robert Czerwiński Kamil Zawistowski Kamil Kłoczewiak (To dopiero zdolne młode wilki!!!)',
+      'VFX: Robert Czerwiński Kamil Zawistowski Kamil Kłoczewiak',
       'Kolor korekcja: Tomasz Januszewski',
       'Online: Filip Wasilewski Artur Czerwiński'
     ],
