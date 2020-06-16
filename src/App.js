@@ -195,30 +195,56 @@ function App() {
         {/*  The Contact Section */}
         <div className="w3-display-container anchor__offset" id="contact">
           <img src={footer} className="w3-image w3-greyscale-min" style={{ width: '100%' }} alt="" />
-          <div className="display-middle w3-container w3-text-white w3-padding-32">
+          <div className="display-middle w3-text-white w3-padding-32"> {/* w3-container  */}
             <div className="w3-center contact">CONTACT</div> {/* w3-wide */}
             {/* <p className="w3-center">Zainteresowany?</p> */}
             {/* <p className="w3-center">Napisz!</p> */}
-            <div className="w3-center manager-container">
-              <div className="manager"> {/* w3-margin-bottom  */}
-                Katarzyna Bielińska
+            <div className="manager-card">
+              <div className="w3-center manager-container">
+                <div className="manager"> {/* w3-margin-bottom  */}
+                  Katarzyna Bielińska
+                </div>
+                <div className="manager-title"> {/* w3-margin-bottom  */}
+                  Kierownik produkcji
+                </div>
               </div>
-              <div className="manager-title"> {/* w3-margin-bottom  */}
-                Kierownik produkcji
+              <div className="w3-center">
+                <div className="phone"> {/* w3-margin-bottom  */}
+                  {/* <i className="fa fa-phone" style={{ width: '30px' }}></i> Tel:  */}
+                  <a className="link" href="tel:+48731490153">
+                    +48&nbsp;&nbsp;731&nbsp;&nbsp;490&nbsp;&nbsp;153 
+                  </a>
+                </div>
+                <div className="mail"> {/* w3-large w3-margin-bottom */}
+                  {/* <i className="fa fa-envelope" style={{ width: '30px' }}> </i> Email:  */}
+                  <a className="link" href="mailto:katarzyna.bielinska.96@gmail.com ">
+                    katarzyna.bielinska.96@gmail.com
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="w3-center">
-              <div className="phone"> {/* w3-margin-bottom  */}
-                {/* <i className="fa fa-phone" style={{ width: '30px' }}></i> Tel:  */}
-                <a className="link" href="tel:+48731490153">
-                  +48&nbsp;&nbsp;731&nbsp;&nbsp;490&nbsp;&nbsp;153 
-                </a>
+            <div className="manager-card">
+              <div className="w3-center manager-container">
+                <div className="manager"> {/* w3-margin-bottom  */}
+                  Adrianna Minkiewicz
+                </div>
+                <div className="manager-title"> {/* w3-margin-bottom  */}
+                  Kierownik produkcji
+                </div>
               </div>
-              <div className="mail"> {/* w3-large w3-margin-bottom */}
-                {/* <i className="fa fa-envelope" style={{ width: '30px' }}> </i> Email:  */}
-                <a className="link" href="mailto:info@cinebitstudio.pl">
-                  info@cinebitstudio.pl
-                </a>
+              <div className="w3-center">
+                <div className="phone"> {/* w3-margin-bottom  */}
+                  {/* <i className="fa fa-phone" style={{ width: '30px' }}></i> Tel:  */}
+                  <a className="link" href="tel:+48669994505">
+                    +48&nbsp;&nbsp;669&nbsp;&nbsp;994&nbsp;&nbsp;505 
+                  </a>
+                </div>
+                <div className="mail"> {/* w3-large w3-margin-bottom */}
+                  {/* <i className="fa fa-envelope" style={{ width: '30px' }}> </i> Email:  */}
+                  <a className="link" href="mailto:adrianna.minkiewicz@gmail.com ">
+                    adrianna.minkiewicz@gmail.com
+                  </a>
+                </div>
               </div>
             </div>
           </div>
